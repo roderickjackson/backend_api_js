@@ -1,8 +1,0 @@
-{
-  "db": {
-    "host": "27017",
-    "database": "api",
-    "name": "db",
-    "connector": "mongodb"
-  }
-}
