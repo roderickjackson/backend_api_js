@@ -1,0 +1,22 @@
+{
+  "name": "account",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "strictObjectIDCoercion": true
+  },
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "ObjectId",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
